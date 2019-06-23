@@ -10,7 +10,7 @@ var exec = require('cordova/exec');
 var ListPicker = function() {}
 
 ListPicker.prototype.showPicker = function(options, callback, error_callback) {
-//     options || (options = {});
+    options || (options = {});
     var scope = options.scope || null;
     
     var config = {
