@@ -28,8 +28,17 @@ Add the following line to config.xml:
         ],
         selectedValue: "papaya",
         doneButtonLabel: "Done",
-        cancelButtonLabel: "Cancel"
+        cancelButtonLabel: "Cancel",
+        androidTheme: 3
     };
+    
+    # Android Theme Numbers:
+        => THEME_TRADITIONAL: 1, // default
+        => THEME_HOLO_DARK: 2,
+        => THEME_HOLO_LIGHT: 3,
+        => THEME_DEVICE_DEFAULT_DARK: 4,
+        => THEME_DEVICE_DEFAULT_LIGHT: 5
+    
     
     // Show the picker
     window.plugins.listpicker.showPicker(config, 
