@@ -10,7 +10,7 @@ var exec = require('cordova/exec');
 var ListPicker = function() {}
 
 ListPicker.prototype.showPicker = function(options, callback, error_callback) {
-    options || (options = {});
+//     options || (options = {});
     var scope = options.scope || null;
     
     var config = {
@@ -19,7 +19,8 @@ ListPicker.prototype.showPicker = function(options, callback, error_callback) {
         items: options.items || {},
         style: options.style || 'default',
         doneButtonLabel: options.doneButtonLabel || 'Done',
-        cancelButtonLabel: options.cancelButtonLabel || 'Cancel'
+        cancelButtonLabel: options.cancelButtonLabel || 'Cancel',
+        androidTheme: options.androidTheme || 1
     };
     
     var _callback = function() {
