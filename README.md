@@ -6,7 +6,7 @@ PhoneGap plugin to display a list picker dialog for Android and iOS.
 ## Installation
 
 Use the following command to install the plugin from npmjs repository with with Cordova CLI (requires cordova 5.0+)
-```cordova plugin add cordova-plugin-listpicker```  
+```cordova plugin add https://github.com/Riyaz0001/Cordova-ListPicker-Plugin.git```  
 
 ## Installation - PhoneGap Build 
 
