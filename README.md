@@ -52,7 +52,7 @@ Add the following line to config.xml:
 
 ## Screenshots
 
-![ListPickerAndroid](screenshots/android.png "ListPickerAndroid")
+![ListPickerAndroid](Untitled.png "ListPickerAndroid")
 ![ListPickeriPhone](screenshots/iphone1.png "ListPickeriPhone")
 ![ListPickeriPad](screenshots/ipad1.png "ListPickeriPad")
 
