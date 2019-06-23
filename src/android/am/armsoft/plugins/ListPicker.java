@@ -55,6 +55,7 @@ public class ListPicker extends CordovaPlugin {
         final String title = options.getString("title");
         final String selectedValue = options.getString("selectedValue");
         final JSONArray items = options.getJSONArray("items");
+        final int themeIds = options.optInt("androidTheme", 1);
         
                 
         // Get the texts to display
@@ -73,7 +74,7 @@ public class ListPicker extends CordovaPlugin {
         // Create and show the alert dialog
         Runnable runnable = new Runnable() {
             public void run() {
-                AlertDialog.Builder builder = new AlertDialog.Builder(cordova.getActivity());
+                AlertDialog.Builder builder = new AlertDialog.Builder(cordova.getActivity(), themeIds);
                 
                 // Set dialog properties
                 builder.setTitle(title);
